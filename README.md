@@ -1,6 +1,9 @@
+
+````markdown
 蛋尖对决
 
-一个用 C++ 和 EasyX 写的图形化小游戏。
+一个用 C++ 和 EasyX 写的图形化小游戏。玩法来源于小时候拿鸡蛋互相碰撞，比谁的鸡蛋更硬。
+
 
 玩法来源于小时候拿鸡蛋互相碰撞，比谁的鸡蛋更硬。
 灵感来源于我的童年，每天早饭，母亲都会拿装满热水的铁盆保温几个煮熟的鸡蛋，
@@ -25,6 +28,7 @@ Windows
 
 文件结构
 
+```text
 Egg-Duel
 ├─ final
 │  └─ main.cpp
@@ -44,26 +48,27 @@ Egg-Duel
 │  ├─ battle.png
 │  └─ result.png
 └─ README.md
+````
 
 基本操作
 
 玩家 1：
 
-
+```text
 W A S D    移动
 Q / E      微调方向
 G          加速
 F          发射蛋黄
-
+```
 
 玩家 2：
 
-
+```text
 方向键      移动
 K / L      微调方向
 右 Shift   加速
 右 Ctrl    发射蛋黄
-
+```
 
 鼠标用于点击菜单、选择鸡蛋、放大检视和上传头像。
 
@@ -113,6 +118,26 @@ K / L      微调方向
 | v2.28 | `versions/v2.28_polish.cpp`          | 展示完善版。加入玩法说明、难度说明和本局摘要。              |
 | v2.29 | `versions/v2.29_final_ai.cpp`        | 最终 AI 版。优化 AI 走位、抢资源、躲避、反击和防抖动逻辑。    |
 
+截图
+
+主菜单
+
+<img width="2559" height="1599" alt="1" src="https://github.com/user-attachments/assets/047584c8-6679-46a0-9aac-7e32dc69c85b" />
+
+
+选蛋界面
+
+<img width="2559" height="1599" alt="2" src="https://github.com/user-attachments/assets/264d5959-ad0b-4d7f-bb7e-e4dbc3650dd4" />
+
+
+对战界面
+
+<img width="2559" height="1599" alt="3" src="https://github.com/user-attachments/assets/1e8a7708-e3af-4a64-a3d7-d37a65baa07e" />
+
+
+结算界面
+
+<img width="2559" height="1599" alt="4" src="https://github.com/user-attachments/assets/bf3ac6d8-7cec-4107-80d5-6e22c61d1915" />
 
 
 项目特点
